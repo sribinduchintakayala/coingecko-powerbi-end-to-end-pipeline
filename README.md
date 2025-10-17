@@ -13,7 +13,7 @@ The goal is to **automate data collection, transformation, and visualization** t
 | Data Source | [CoinGecko API](https://www.coingecko.com/en/api/documentation) | Fetch real-time cryptocurrency data |
 | Ingestion | Python (Google Colab) | Extract API data and upload to BigQuery |
 | Storage | Google BigQuery | Store structured data |
-| Cleaning | Python (Google Colab) | Clean, and transform raw data |
+| Cleaning | SQL (Google Colab) | Clean, and transform raw data |
 | Automation & Scheduling | Apache Airflow (Cloud Composer) | Schedule and automate data refreshes |
 | Visualization | Power BI | Build interactive dashboards |
 
